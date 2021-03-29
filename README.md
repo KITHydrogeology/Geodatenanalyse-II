@@ -8,6 +8,8 @@
 
 ![alt text](geodaten.png "Geodaten Beispiel")
 
+**Achtung**: Voraussetzung für die Belegung ist das Modul *Programmierung und Geostatistik für Hydro- und Ingenieurgeologen* (Geodatenanalyse 1)
+
 Für allgemeine Kursinformationen siehe [KIT Campus Management für Studierende](https://campus.studium.kit.edu/br/ROlpdafXSay1HeSJ9vvaJg/de)
 
 Für detaillierte Kursinformationen siehe [KIT ILIAS](https://ilias.studium.kit.edu/goto.php?target=crs_1430325&client_id=produktiv)
