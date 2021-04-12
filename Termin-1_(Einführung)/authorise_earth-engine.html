@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>installation_geo_environment</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>authorise_earth-engine</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14259,151 +14259,51 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Geodatenanalyse-1---Installation-der-Analyseumgebung">Geodatenanalyse 1 - Installation der Analyseumgebung<a class="anchor-link" href="#Geodatenanalyse-1---Installation-der-Analyseumgebung">&#182;</a></h1>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Anaconda-herunterladen">Anaconda herunterladen<a class="anchor-link" href="#Anaconda-herunterladen">&#182;</a></h2><p>Bitte <a href="https://www.anaconda.com/products/individual">Anaconda downloaden</a></p>
-<p><img src="images/download.png" alt="drawing" width="500"/></p>
-<p>Bitte hier für das jeweilige System die Installationsdatei herunterladen.</p>
+<h1 id="Google-Earth-Engine-Autorisierung">Google Earth Engine Autorisierung<a class="anchor-link" href="#Google-Earth-Engine-Autorisierung">&#182;</a></h1><p>Folgende Kurzanleitung beschreibt, wie Earth Engine authorisiert werden kann.</p>
+<p><strong>ACHTUNG</strong>: Ein existierendes Konto mit Google (wie es auch für die Nutzung von GMail oder Maps erforderlich ist) wird hierfür benötigt. Hier kann ein kostenloses <a href="https://www.google.com/intl/de/account/about/">Google Konto eingerichtet werden</a>.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Anaconda-installieren">Anaconda installieren<a class="anchor-link" href="#Anaconda-installieren">&#182;</a></h2><h3 id="Windows">Windows<a class="anchor-link" href="#Windows">&#182;</a></h3><p><em>ACHTUNG</em>: Bitte den von Anaconda vorgeschlagenen Installationspfad nicht verändern!</p>
-<p><img src="images/install_path.png" alt="drawing" width="400"/></p>
-<h3 id="MacOS-/-Linux">MacOS / Linux<a class="anchor-link" href="#MacOS-/-Linux">&#182;</a></h3><p>Bitte ganz normal installieren</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Kursmaterial-herunterladen-und-lokal-dekomprimieren">Kursmaterial herunterladen und lokal dekomprimieren<a class="anchor-link" href="#Kursmaterial-herunterladen-und-lokal-dekomprimieren">&#182;</a></h2><p>Bitte das Archiv des <a href="https://github.com/KIT-IngGeo/Geodatenanalyse">Kursmaterials Geodatenanalyse 1</a> von GitHub als ZIP-Datei herunterladen</p>
-<p><img src="images/github_ZIP.png" alt="drawing" width="800"/></p>
-<p>Die herunter geladene ZIP-Datei kann jetzt lokal in einem beliebigen Order (<span style="color:red">#PFAD#</span>, unter Windows z.B. C:\Geodatenanalyse 1\) dekomprimiert weren</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Einmalige-Erstellung-der-Entwicklungsumgebung">Einmalige Erstellung der Entwicklungsumgebung<a class="anchor-link" href="#Einmalige-Erstellung-der-Entwicklungsumgebung">&#182;</a></h2><p>Die Konfigurationsdatei für die Analyseumgebung (Python 3.7) ist im Kursmaterial enthalten. Sie wurde beim letzten Schritt als Datei <strong>geodatenanalyse.yml</strong> in den <span style="color:red">#PFAD#</span> dekomptimiert abgelegt.</p>
-<p><strong>Achtung</strong>: Der Einrichtungsprozess kann eine Weile dauern!</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Windows">Windows<a class="anchor-link" href="#Windows">&#182;</a></h4><p>1 - Den <span style="color:red">#PFAD#</span> im Dateimanager in die Zwischenablage kopieren</p>
-<p>2 - Das Programm <em>Anaconda Prompt</em> öffnen</p>
-<p>3 - Folgendes in <em>Anaconda Prompt</em> eingeben und Enter drücken:</p>
-<p><code>cd #PFAD#</code></p>
-<p>(schreibe 'cd ', dann Rechtsklick einfügen)</p>
-<p>4 - Folgendes in <em>Anaconda Prompt</em> eingeben und Enter drücken:</p>
-<p><code>conda env create -f geodatenanalyse.yml python=3.7</code></p>
-<p>Jetzt wird die Umgebung eingerichtet.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="McOS">McOS<a class="anchor-link" href="#McOS">&#182;</a></h4><p>1 - Das Programm <em>Shell command</em> öffnen</p>
-<p>2 - Zum Archiv navigieren:</p>
-<p><code>cd #PFAD#</code></p>
-<p>3 - Umgebung installieren:</p>
-<p><code>conda env create -f geodatenanalyse.yml python=3.7</code></p>
-<p>4 - Ausführungsrechte für den Notebook-Starter:</p>
-<p><code>chmod +x start_geo_MAC.sh</code></p>
-<p>Jetzt wird die Umgebung eingerichtet.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Linux">Linux<a class="anchor-link" href="#Linux">&#182;</a></h4><p>1 - <em>Terminal</em> öffnen</p>
-<p>2 - Zum Archiv navigieren:</p>
-<p><code>cd #PFAD#</code></p>
-<p>3 - Umgebung installieren:</p>
-<p><code>conda env create -f geodatenanalyse.yml python=3.7</code></p>
-<p>4 - Ausführungsrechte für den Notebook-Starter:</p>
-<p><code>chmod +x start_geo_LINUX.sh</code></p>
-<p>Jetzt wird die Umgebung eingerichtet.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Verwendung-der-Analyseumgebung">Verwendung der Analyseumgebung<a class="anchor-link" href="#Verwendung-der-Analyseumgebung">&#182;</a></h3>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Windows">Windows<a class="anchor-link" href="#Windows">&#182;</a></h4><p>Die Analyseumgebung kann nun für jede Sesson durch Doppelklick auf die Batch-Datei <strong>start_geo_WINDOWS.bat</strong> geöffnet werden.</p>
-<p>Diese Aktion sollte das Browser-Fenster mit den Kursmaterialien öffnen.</p>
-<p>Sollte diese Datei einen Fehler anzeigen, dann wurde der nstallationspfad geändert und muss zu den Umgebungsvariablen in Windows hinzugefügt werden.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="MacOS">MacOS<a class="anchor-link" href="#MacOS">&#182;</a></h4><p>Die Analyseumgebung kann nun durch Aufruf der Bash-Datei im <em>Shell command</em> gestartet werden:</p>
-<p><code>./start_geo_MAC.sh</code></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Linux">Linux<a class="anchor-link" href="#Linux">&#182;</a></h4><p>Die Analyseumgebung kann nun durch Aufruf der Bash-Datei im <em>Terminal</em> gestartet werden:</p>
-<p><code>./start_geo_LINUX.sh</code></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Anleitung-zur-manuellen-Erstellung-der-Umgebung">Anleitung zur manuellen Erstellung der Umgebung<a class="anchor-link" href="#Anleitung-zur-manuellen-Erstellung-der-Umgebung">&#182;</a></h2><p><strong>ACHTUNG</strong>: Bitte diese Anleitung nur ausführen, wenn die automatische Einrichtung nicht klappt!</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Windows">Windows<a class="anchor-link" href="#Windows">&#182;</a></h3><p>Das Programm <em>Anaconda Prompt</em> öffnen</p>
-<h3 id="Linux/MacOS">Linux/MacOS<a class="anchor-link" href="#Linux/MacOS">&#182;</a></h3><p>Ein beliebiges Terminal aufmachen</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="F&#252;r-alle-Betriebssysteme">F&#252;r alle Betriebssysteme<a class="anchor-link" href="#F&#252;r-alle-Betriebssysteme">&#182;</a></h3><p>1 - Eine neue Umgebung namens "geo" erstellen:</p>
-<p><code>conda create -n geo python=3.7</code></p>
-<p>2 - Activate the new environment:</p>
+<h3 id="In-geo-wechseln">In geo wechseln<a class="anchor-link" href="#In-geo-wechseln">&#182;</a></h3><p><em>Anaconda Prompt</em> öffnen und folgendes eingeben:</p>
 <p><code>conda activate geo</code></p>
-<p>3a - Pakete installieren:</p>
-<p><code>conda install -c anaconda xlrd openpyxl ipykernel mpmath sympy xarray netcdf4 seaborn</code></p>
-<p>3b - Weitere Pakete installieren:</p>
-<p><code>conda install -c conda-forge shapely cartopy descartes contextily salib pykrige ruptures geopandas jupyterlab</code></p>
-<p>3c - Pakete über pip installieren:</p>
-<p><code>pip install scikit-gstat</code></p>
-<p>5 - Add the user to the kernel:</p>
-<p><code>python -m ipykernel install --user</code></p>
+<p>Nun sollte <em>(geo)</em> vor dem Pfad angezeigt werden.</p>
+<h3 id="Autorisierung-einmalig-speichern">Autorisierung einmalig speichern<a class="anchor-link" href="#Autorisierung-einmalig-speichern">&#182;</a></h3><p><code>earthengine authenticate</code></p>
+<p>Dann bitte den Google-Anweisungen folgen ...</p>
 
 </div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Umgebung-testen">Umgebung testen<a class="anchor-link" href="#Umgebung-testen">&#182;</a></h2><p>Ein Test, ob vor allem <em>GeoPandas</em> funktioniert:</p>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">osgeo</span> <span class="kn">import</span> <span class="n">gdal</span><span class="p">,</span> <span class="n">ogr</span><span class="p">,</span> <span class="n">osr</span>
-<span class="kn">from</span> <span class="nn">fiona.ogrext</span> <span class="kn">import</span> <span class="n">Iterator</span><span class="p">,</span> <span class="n">ItemsIterator</span><span class="p">,</span> <span class="n">KeysIterator</span>
-<span class="kn">from</span> <span class="nn">geopandas</span> <span class="kn">import</span> <span class="n">GeoDataFrame</span>
-<span class="n">gdal</span><span class="o">.</span><span class="n">VersionInfo</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">ee</span>
+
+<span class="c1"># Initialize the Earth Engine module.</span>
+<span class="n">ee</span><span class="o">.</span><span class="n">Initialize</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Bei diesem Code-Block sollte keine Fehlermeldung auftauchen!</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Print metadata for a DEM dataset.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ee</span><span class="o">.</span><span class="n">Image</span><span class="p">(</span><span class="s1">&#39;USGS/SRTMGL1_003&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">getInfo</span><span class="p">())</span>
 </pre></div>
 
      </div>
@@ -14419,15 +14319,13 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;3010400&#39;</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>{&#39;type&#39;: &#39;Image&#39;, &#39;bands&#39;: [{&#39;id&#39;: &#39;elevation&#39;, &#39;data_type&#39;: {&#39;type&#39;: &#39;PixelType&#39;, &#39;precision&#39;: &#39;int&#39;, &#39;min&#39;: -32768, &#39;max&#39;: 32767}, &#39;dimensions&#39;: [1296001, 417601], &#39;crs&#39;: &#39;EPSG:4326&#39;, &#39;crs_transform&#39;: [0.0002777777777777778, 0, -180.0001388888889, 0, -0.0002777777777777778, 60.00013888888889]}], &#39;id&#39;: &#39;USGS/SRTMGL1_003&#39;, &#39;version&#39;: 1605362602494378, &#39;properties&#39;: {&#39;system:visualization_0_min&#39;: &#39;0.0&#39;, &#39;type_name&#39;: &#39;Image&#39;, &#39;thumb&#39;: &#39;https://mw1.google.com/ges/dd/images/SRTM90_V4_thumb.png&#39;, &#39;description&#39;: &#39;&lt;p&gt;The Shuttle Radar Topography Mission (SRTM, see &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1029/2005RG000183/full&#34;&gt;Farr\net al. 2007&lt;/a&gt;)\ndigital elevation data is an international research effort that\nobtained digital elevation models on a near-global scale. This\nSRTM V3 product (SRTM Plus) is provided by NASA JPL\nat a resolution of 1 arc-second (approximately 30m).&lt;/p&gt;&lt;p&gt;This dataset has undergone a void-filling process using open-source data\n(ASTER GDEM2, GMTED2010, and NED), as opposed to other versions that\ncontain voids or have been void-filled with commercial sources.\nFor more information on the different versions see the\n&lt;a href=&#34;https://lpdaac.usgs.gov/documents/13/SRTM_Quick_Guide.pdf&#34;&gt;SRTM Quick Guide&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Documentation:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://lpdaac.usgs.gov/documents/179/SRTM_User_Guide_V3.pdf&#34;&gt;User&amp;#39;s Guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://lpdaac.usgs.gov/documents/13/SRTM_Quick_Guide.pdf&#34;&gt;General Documentation&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1029/2005RG000183&#34;&gt;Algorithm Theoretical Basis Document (ATBD)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Bands&lt;/b&gt;&lt;table class=&#34;eecat&#34;&gt;&lt;tr&gt;&lt;th scope=&#34;col&#34;&gt;Name&lt;/th&gt;&lt;th scope=&#34;col&#34;&gt;Description&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;elevation&lt;/td&gt;&lt;td&gt;&lt;p&gt;Elevation&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Terms of Use&lt;/b&gt;&lt;br&gt;&lt;p&gt;Unless otherwise noted, images and video on JPL public web sites (public sites ending with a jpl.nasa.gov address) may be used for any purpose without prior permission. For more information and exceptions visit the &lt;a href=&#34;https://www.jpl.nasa.gov/imagepolicy/&#34;&gt;JPL Image Use Policy site&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Suggested citation(s)&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., and Alsdorf, D.E., 2007, The shuttle radar topography mission: Reviews of Geophysics, v. 45, no. 2, RG2004, at &lt;a href=&#34;https://doi.org/10.1029/2005RG000183&#34;&gt;https://doi.org/10.1029/2005RG000183&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;style&gt;\n  table.eecat {\n  border: 1px solid black;\n  border-collapse: collapse;\n  font-size: 13px;\n  }\n  table.eecat td, tr, th {\n  text-align: left; vertical-align: top;\n  border: 1px solid gray; padding: 3px;\n  }\n  td.nobreak { white-space: nowrap; }\n&lt;/style&gt;&#39;, &#39;source_tags&#39;: [&#39;nasa&#39;, &#39;usgs&#39;], &#39;visualization_0_max&#39;: &#39;6000.0&#39;, &#39;title&#39;: &#39;NASA SRTM Digital Elevation 30m&#39;, &#39;product_tags&#39;: [&#39;srtm&#39;, &#39;elevation&#39;, &#39;topography&#39;, &#39;dem&#39;, &#39;geophysical&#39;], &#39;provider&#39;: &#39;NASA / USGS / JPL-Caltech&#39;, &#39;visualization_0_min&#39;: &#39;0.0&#39;, &#39;visualization_0_name&#39;: &#39;Elevation&#39;, &#39;date_range&#39;: [950227200000, 951177600000], &#39;system:visualization_0_gamma&#39;: &#39;1.6&#39;, &#39;period&#39;: 0, &#39;system:visualization_0_bands&#39;: &#39;elevation&#39;, &#39;provider_url&#39;: &#39;https://cmr.earthdata.nasa.gov/search/concepts/C1000000240-LPDAAC_ECS.html&#39;, &#39;visualization_0_gamma&#39;: &#39;1.6&#39;, &#39;sample&#39;: &#39;https://mw1.google.com/ges/dd/images/SRTM90_V4_sample.png&#39;, &#39;tags&#39;: [&#39;nasa&#39;, &#39;usgs&#39;, &#39;srtm&#39;, &#39;elevation&#39;, &#39;topography&#39;, &#39;dem&#39;, &#39;geophysical&#39;], &#39;system:visualization_0_max&#39;: &#39;6000.0&#39;, &#39;system:visualization_0_name&#39;: &#39;Elevation&#39;, &#39;system:asset_size&#39;: 132792638252, &#39;visualization_0_bands&#39;: &#39;elevation&#39;}}
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -14437,27 +14335,8 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Wenn dieser Test keine Fehlermeldung anzeigt, dann ist alles in Ordunug!</p>
+<p><em>HINWEIS</em>: Siehe auch <a href="https://developers.google.com/earth-engine/guides/python_install-conda">hier</a></p>
 
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Manueller-Aufruf-von-Jupyter">Manueller Aufruf von <em>Jupyter</em><a class="anchor-link" href="#Manueller-Aufruf-von-Jupyter">&#182;</a></h3><p>Beim Aufruf von <em>Jupyter</em> müssen nun folgende Schritte durchgeführt werden:</p>
-<p>1 - <code>conda activate geo</code></p>
-<p>2 - <code>jupyter notebook --notebook-dir="#PFAD#"</code></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Anaconda-FAQ">Anaconda FAQ<a class="anchor-link" href="#Anaconda-FAQ">&#182;</a></h2><p><a href="https://docs.anaconda.com/anaconda/user-guide/faq/">Hier können Probleme gelöst werden</a></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="ENDE">ENDE<a class="anchor-link" href="#ENDE">&#182;</a></h2>
 </div>
 </div>
 </body>
