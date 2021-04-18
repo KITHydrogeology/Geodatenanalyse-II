@@ -31,9 +31,9 @@
 
 
 ### Deutschland:
-Überblick: https://geoportal.de/portal/main/ 
-BGR: https://geoviewer.bgr.de/ 
-BFG: https://geoportal.bafg.de/swe-client/ 
+*	Überblick: https://geoportal.de/portal/main/ 
+*	BGR: https://geoviewer.bgr.de/ 
+*	BFG: https://geoportal.bafg.de/swe-client/   
 https://geoportal.bafg.de/ggina-portal/ 
 
 #### Geodatenportale der Bundesländer:
