@@ -38,29 +38,29 @@ https://geoportal.bafg.de/ggina-portal/
 
 #### Geodatenportale der Bundesländer:
 *	Baden-Württemberg:  
-[Udo](https://udo.lubw.baden-wuerttemberg.de/public/)     
-[Jahresdatenkatalog GW](http://jdkgw.lubw.baden-wuerttemberg.de/servlet/is/200/)     
-[GUQ](https://guq.lubw.baden-wuerttemberg.de/GuQWeb.dll/p79198.html?BerichtsMonat=201708)      
+    *	[Udo](https://udo.lubw.baden-wuerttemberg.de/public/)     
+    *	[Jahresdatenkatalog GW](http://jdkgw.lubw.baden-wuerttemberg.de/servlet/is/200/)     
+    *	[GUQ](https://guq.lubw.baden-wuerttemberg.de/GuQWeb.dll/p79198.html?BerichtsMonat=201708)      
 *	[Bayern](https://www.gkd.bayern.de/de/grundwasser/oberesstockwerk) 
 *	[Berlin](https://wasserportal.berlin.de/start.php) 
 *	[Brandenburg](http://maps.brandenburg.de/WebOffice/?project=GWM_www_WO) 
-*	Bremen:
-*	Hamburg:
+*	Bremen:	NA
+*	Hamburg:	NA
 *	Hessen:  
-[GRUSCHU](https://gruschu.hessen.de/mapapps/resources/apps/gruschu/index.html?lang=de)     
-[LGD](https://lgd.hessen.de/mapapps/resources/apps/lgd/index.html?lang=de)
+    *	[GRUSCHU](https://gruschu.hessen.de/mapapps/resources/apps/gruschu/index.html?lang=de)     
+    *	[LGD](https://lgd.hessen.de/mapapps/resources/apps/lgd/index.html?lang=de)
 *	[Mecklenburg-Vorpommern](https://www.umweltkarten.mv-regierung.de/script/index.php?aid=206)
 *	Niedersachsen:  
-[Wasserdaten](http://www.wasserdaten.niedersachsen.de/cadenza/)       
-[Umweltkarten](https://www.umweltkarten-niedersachsen.de/Umweltkarten/?topic=Basisdaten&lang=de&bgLayer=TopographieGrau)         
-[LBEG](https://nibis.lbeg.de/cardomap3/)    
+    *	[Wasserdaten](http://www.wasserdaten.niedersachsen.de/cadenza/)       
+    *	[Umweltkarten](https://www.umweltkarten-niedersachsen.de/Umweltkarten/?topic=Basisdaten&lang=de&bgLayer=TopographieGrau)         
+    *	[LBEG](https://nibis.lbeg.de/cardomap3/)    
 *	[Nordrhein-Westfalen](https://www.elwasweb.nrw.de/elwas-web/index.jsf) 
 *	[Rheinland-Pfalz](https://wasserportal.rlp-umwelt.de/servlet/is/1632/) 
-*	Saarland:
+*	Saarland:	NA
 *	[Sachsen](https://www.umwelt.sachsen.de/umwelt/infosysteme/ida/index.xhtml) 
 *	Sachsen-Anhalt:   
-[Lvermgeo](https://www.lvermgeo.sachsen-anhalt.de/de/startseite_viewer.html)      
-[GLD](https://gld-sa.dhi-wasy.de/GLD-Portal/)    
+    *	[Lvermgeo](https://www.lvermgeo.sachsen-anhalt.de/de/startseite_viewer.html)      
+    *	[GLD](https://gld-sa.dhi-wasy.de/GLD-Portal/)    
 *	[Schleswig-Holstein](http://www.umweltdaten.landsh.de/atlas/script/index.php) 
 *	[Thüringen](https://antares.thueringen.de/cadenza/pages/map/default/index.xhtml;jsessionid=72C24BAB3276D6866B2C4E7E1FFD15AD)  
 ### Frankreich:
