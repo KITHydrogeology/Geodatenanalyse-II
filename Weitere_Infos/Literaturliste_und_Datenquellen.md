@@ -77,7 +77,7 @@ https://geoportal.bafg.de/ggina-portal/
 ### Global:
 *  https://www.un-igrac.org/special-project/ggmn-global-groundwater-monitoring-network  
 *  https://www.un-igrac.org/global-groundwater-information-system-ggis 
-*  https://chrsdata.eng.uci.edu/ high resolution precipitation
+*  PERSIANN: https://chrsdata.eng.uci.edu/ (high resolution precipitation)
 ### Klimadaten:
 *	Deutschland - DWD: https://www.dwd.de/DE/klimaumwelt/cdc/cdc_node.html 
 *	https://icdc.cen.uni-hamburg.de/ 
