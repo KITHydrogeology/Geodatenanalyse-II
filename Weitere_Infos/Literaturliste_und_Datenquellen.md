@@ -74,9 +74,10 @@ https://geoportal.bafg.de/ggina-portal/
 [Hydrological Outlook UK](http://www.hydoutuk.net/)   
 ### Europa:   
 [INSPIRE](https://inspire-geoportal.ec.europa.eu/overview.html?view=envDomainOverview&envDomain=water)  
-### Global:  
-https://www.un-igrac.org/special-project/ggmn-global-groundwater-monitoring-network 
-https://www.un-igrac.org/global-groundwater-information-system-ggis 
+### Global:
+*  https://www.un-igrac.org/special-project/ggmn-global-groundwater-monitoring-network  
+*  https://www.un-igrac.org/global-groundwater-information-system-ggis 
+*  https://chrsdata.eng.uci.edu/ high resolution precipitation
 ### Klimadaten:
 *	Deutschland - DWD: https://www.dwd.de/DE/klimaumwelt/cdc/cdc_node.html 
 *	https://icdc.cen.uni-hamburg.de/ 
