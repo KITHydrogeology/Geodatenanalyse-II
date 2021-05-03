@@ -16,10 +16,10 @@
 * Rajaee, T., H. Ebrahimi and V. Nourani (2019). "A review of the artificial intelligence methods in groundwater level modeling." Journal of Hydrology 572: 336-351.
 * Shen, C. (2018). "A transdisciplinary review of deep learning research and its relevance for water resources scientists." Water Resources Research 54(11): 8558-8593.
 * Wunsch, A., Liesch, T., and Broda, S. (2021): Groundwater level forecasting with artificial neural networks: a comparison of long short-term memory (LSTM), convolutional neural networks (CNNs), and non-linear autoregressive networks with exogenous input (NARX), Hydrol. Earth Syst. Sci., 25, 1671–1687, https://doi.org/10.5194/hess-25-1671-2021, 2021.
-* Acworth, R. I., Halloran, L. J. S., Rau, G. C., Cuthbert, M. O., Bernardi, T. L. (2016) An objective frequency domain method for quantifying conﬁned aquifer compressible storage using Earth and atmospheric tides, Geophysical Research Letters, doi:10.1002/2016GL071328
-* Rau, G. C., Cuthbert, M. O., Acworth, R. I., Blum, P. (2020) Technical note: Disentangling the groundwater response to Earth and atmospheric tides to improve subsurface characterisation, Hydrology and Earth System Sciences, doi:10.5194/hess-24-6033-2020
+* Acworth, R. I., Halloran, L. J. S., Rau, G. C., Cuthbert, M. O., Bernardi, T. L. (2016) An objective frequency domain method for quantifying conﬁned aquifer compressible storage using Earth and atmospheric tides, Geophysical Research Letters, doi: 10.1002/2016GL071328
+* Rau, G. C., Cuthbert, M. O., Acworth, R. I., Blum, P. (2020) Technical note: Disentangling the groundwater response to Earth and atmospheric tides to improve subsurface characterisation, Hydrology and Earth System Sciences, doi: 10.5194/hess-24-6033-2020
 * McMillan, T. C., Rau, G. C., Timms, W. E., Andersen, M. S. (2019) Utilizing the Impact of Earth and Atmospheric Tides on Groundwater Systems: A Review Reveals the Future
-Potential, Reviews of Geophysics, doi:10.1029/2018RG000630
+Potential, Reviews of Geophysics, doi: 10.1029/2018RG000630
 
 
 ## Blogs & Websites
