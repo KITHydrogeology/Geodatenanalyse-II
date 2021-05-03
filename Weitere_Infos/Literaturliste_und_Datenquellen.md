@@ -7,24 +7,28 @@
 * Goodfellow, I., Y. Bengio and A. Courville (2016). Deep Learning, MIT Press.
 * McKinney, W. (2017). Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, O'Reilly Media.
 * VanderPlas, J. (2016). Python Data Science Handbook: Essential Tools for Working with Data. Japan: O'Reilly Media.
+* Smith, Steven W. (1997) The Scientist & Engineer's Guide to Digital Signal Processing. California Technical Pub. ISBN-10: 0966017633.
 
 
 ## Paper
-
 
 * Knoll, L., L. Breuer and M. Bach (2020). "Nation-wide estimation of groundwater redox conditions and nitrate concentrations through machine learning." Environmental Research Letters 15(6): 064004.
 * Rajaee, T., H. Ebrahimi and V. Nourani (2019). "A review of the artificial intelligence methods in groundwater level modeling." Journal of Hydrology 572: 336-351.
 * Shen, C. (2018). "A transdisciplinary review of deep learning research and its relevance for water resources scientists." Water Resources Research 54(11): 8558-8593.
 * Wunsch, A., Liesch, T., and Broda, S. (2021): Groundwater level forecasting with artificial neural networks: a comparison of long short-term memory (LSTM), convolutional neural networks (CNNs), and non-linear autoregressive networks with exogenous input (NARX), Hydrol. Earth Syst. Sci., 25, 1671–1687, https://doi.org/10.5194/hess-25-1671-2021, 2021.
+* Acworth, R. I., Halloran, L. J. S., Rau, G. C., Cuthbert, M. O., Bernardi, T. L. (2016) An objective frequency domain method for quantifying conﬁned aquifer compressible storage using Earth and atmospheric tides, Geophysical Research Letters, doi:10.1002/2016GL071328
+* Rau, G. C., Cuthbert, M. O., Acworth, R. I., Blum, P. (2020) Technical note: Disentangling the groundwater response to Earth and atmospheric tides to improve subsurface characterisation, Hydrology and Earth System Sciences, doi:10.5194/hess-24-6033-2020
+* McMillan, T. C., Rau, G. C., Timms, W. E., Andersen, M. S. (2019) Utilizing the Impact of Earth and Atmospheric Tides on Groundwater Systems: A Review Reveals the Future
+Potential, Reviews of Geophysics, doi:10.1029/2018RG000630
 
 
 ## Blogs & Websites
-
 
 [TensorFlow, Keras and deep learning, without a PhD](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0)  
 [TowardsDataScience](http://towardsdatascience.com/)
 [Machine Learning Mastery](https://machinelearningmastery.com/)  
 [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course/)  
+[Jack Schaedler, Seeing Sines, Circles and Signals](https://jackschaedler.github.io/circles-sines-signals/)
 
 
 ## Geodatenportale
