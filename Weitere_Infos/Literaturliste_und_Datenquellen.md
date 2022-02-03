@@ -32,6 +32,8 @@ Potential, Reviews of Geophysics, doi: 10.1029/2018RG000630
 [Link-Liste von DeepMind](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf)
 
 
+
+
 ## Geodatenportale
 
 
