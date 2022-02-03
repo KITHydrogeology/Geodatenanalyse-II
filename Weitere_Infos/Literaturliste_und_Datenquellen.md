@@ -29,7 +29,7 @@ Potential, Reviews of Geophysics, doi: 10.1029/2018RG000630
 [Machine Learning Mastery](https://machinelearningmastery.com/)  
 [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course/)  
 [Jack Schaedler, Seeing Sines, Circles and Signals](https://jackschaedler.github.io/circles-sines-signals/) 
-[Link-Liste von DeepMind]([https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI resources.pdf))
+[Link-Liste von DeepMind](https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI resources.pdf)
 
 
 
