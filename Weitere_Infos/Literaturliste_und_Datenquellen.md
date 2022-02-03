@@ -91,4 +91,4 @@ https://geoportal.bafg.de/ggina-portal/
 z.B. https://gis.ncdc.noaa.gov/maps/ncei/summaries/monthly 
 
 
-
+<a href="https://storage.googleapis.com/deepmind-media/research/New_AtHomeWithAI%20resources.pdf" target="_blank">Literaturliste Google DeepMind</a>
