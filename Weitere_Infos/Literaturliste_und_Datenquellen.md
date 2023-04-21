@@ -47,7 +47,7 @@ https://geoportal.bafg.de/ggina-portal/
     *	[GUQ](https://guq.lubw.baden-wuerttemberg.de/GuQWeb.dll/p79198.html?BerichtsMonat=201708)      
 *	[Bayern](https://www.gkd.bayern.de/de/grundwasser/oberesstockwerk) 
 *	[Berlin](https://wasserportal.berlin.de/start.php) 
-*	[Brandenburg](http://maps.brandenburg.de/WebOffice/?project=GWM_www_WO) 
+*	[Brandenburg](https://apw.brandenburg.de/) 
 *	Bremen:	NA
 *	Hamburg:	NA
 *	Hessen:  
@@ -58,14 +58,14 @@ https://geoportal.bafg.de/ggina-portal/
     *	[Wasserdaten](http://www.wasserdaten.niedersachsen.de/cadenza/)       
     *	[Umweltkarten](https://www.umweltkarten-niedersachsen.de/Umweltkarten/?topic=Basisdaten&lang=de&bgLayer=TopographieGrau)         
     *	[LBEG](https://nibis.lbeg.de/cardomap3/)    
-*	[Nordrhein-Westfalen](https://www.elwasweb.nrw.de/elwas-web/index.jsf) 
+*	[Nordrhein-Westfalen](https://www.elwasweb.nrw.de/elwas-web/index.xhtml) 
 *	[Rheinland-Pfalz](https://wasserportal.rlp-umwelt.de/servlet/is/1632/) 
 *	Saarland:	NA
 *	[Sachsen](https://www.umwelt.sachsen.de/umwelt/infosysteme/ida/index.xhtml) 
 *	Sachsen-Anhalt:   
     *	[Lvermgeo](https://www.lvermgeo.sachsen-anhalt.de/de/startseite_viewer.html)      
-    *	[GLD](https://gld-sa.dhi-wasy.de/GLD-Portal/)    
-*	[Schleswig-Holstein](http://www.umweltdaten.landsh.de/atlas/script/index.php) 
+    *	[GLD](https://gld.lhw-sachsen-anhalt.de/)
+*	[Schleswig-Holstein](https://umweltportal.schleswig-holstein.de)
 *	[Thüringen](https://antares.thueringen.de/cadenza/pages/map/default/index.xhtml;jsessionid=72C24BAB3276D6866B2C4E7E1FFD15AD)  
 ### Frankreich:
 *	[BDLISA](https://bdlisa.eaufrance.fr/carte)
@@ -73,7 +73,9 @@ https://geoportal.bafg.de/ggina-portal/
 *	[ADES](https://ades.eaufrance.fr/)
 *	[Aires-Captage](https://aires-captages.fr/)
 ### Österreich:   
-[EHYD](https://ehyd.gv.at/)    
+[EHYD](https://ehyd.gv.at/)
+### Schweiz:
+[BAFU](https://www.bafu.admin.ch/bafu/de/home/themen/wasser/fachinformationen/zustand-der-gewaesser/zustand-des-grundwassers.html)
 ### Großbritannien:   
 [Hydrological Outlook UK](http://www.hydoutuk.net/)   
 ### Europa:   
@@ -84,7 +86,7 @@ https://geoportal.bafg.de/ggina-portal/
 *  PERSIANN: https://chrsdata.eng.uci.edu/ (high resolution precipitation)
 ### Klimadaten:
 *	Deutschland - DWD: https://www.dwd.de/DE/klimaumwelt/cdc/cdc_node.html 
-*	https://icdc.cen.uni-hamburg.de/ 
+*	https://icdc.cen.uni-hamburg.de/
 *	Großbritannien: https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data#?tab=climateHistoric 
 *	Europa – Copernicus, ECMWF: https://cds.climate.copernicus.eu/cdsapp#!/search?type=dataset    
 *	USA - NOAA: https://www.ncdc.noaa.gov/cdo-web/   
