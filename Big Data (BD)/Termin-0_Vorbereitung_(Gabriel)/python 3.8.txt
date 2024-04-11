@@ -1,6 +1,0 @@
-conda install -c anaconda xlrd openpyxl ipykernel mpmath sympy xarray netcdf4
-
-conda install -c conda-forge shapely cartopy descartes salib geopandas jupyterlab earthengine-api geemap
-
--------------------------
-contextily ????
