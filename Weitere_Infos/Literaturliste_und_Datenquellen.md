@@ -81,7 +81,7 @@ https://geoportal.bafg.de/ggina-portal/
 ### Europa:   
 [INSPIRE](https://inspire-geoportal.ec.europa.eu/overview.html?view=envDomainOverview&envDomain=water)  
 ### USA:
-*	[USGS National Water Information System (NWIS)]([https://inspire-geoportal.ec.europa.eu/overview.html?view=envDomainOverview&envDomain=water](https://nwis.waterdata.usgs.gov/nwis))
+*	[USGS National Water Information System (NWIS)](https://nwis.waterdata.usgs.gov/nwis)
 *	[California's Groundwater Live](https://sgma.water.ca.gov/CalGWLive/)  
 ### Global:
 *  https://www.un-igrac.org/special-project/ggmn-global-groundwater-monitoring-network  
