@@ -80,6 +80,9 @@ https://geoportal.bafg.de/ggina-portal/
 [Hydrological Outlook UK](http://www.hydoutuk.net/)   
 ### Europa:   
 [INSPIRE](https://inspire-geoportal.ec.europa.eu/overview.html?view=envDomainOverview&envDomain=water)  
+### USA:
+*	[USGS National Water Information System (NWIS)]([https://inspire-geoportal.ec.europa.eu/overview.html?view=envDomainOverview&envDomain=water](https://nwis.waterdata.usgs.gov/nwis))
+*	[California's Groundwater Live](https://sgma.water.ca.gov/CalGWLive/)  
 ### Global:
 *  https://www.un-igrac.org/special-project/ggmn-global-groundwater-monitoring-network  
 *  https://www.un-igrac.org/global-groundwater-information-system-ggis 
