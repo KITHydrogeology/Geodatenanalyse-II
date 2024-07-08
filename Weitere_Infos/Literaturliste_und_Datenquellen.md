@@ -59,7 +59,7 @@ https://geoportal.bafg.de/ggina-portal/
     *	[Umweltkarten](https://www.umweltkarten-niedersachsen.de/Umweltkarten/?topic=Basisdaten&lang=de&bgLayer=TopographieGrau)         
     *	[LBEG](https://nibis.lbeg.de/cardomap3/)    
 *	[Nordrhein-Westfalen](https://www.elwasweb.nrw.de/elwas-web/index.xhtml) 
-*	[Rheinland-Pfalz](https://wasserportal.rlp-umwelt.de/servlet/is/1632/) 
+*	[Rheinland-Pfalz]([https://wasserportal.rlp-umwelt.de/servlet/is/1632/](https://wasserportal.rlp-umwelt.de/auskunftssysteme/grundwasserstaende-und-beschaffenheit/karte-grundwassermessstellen)) 
 *	Saarland:	NA
 *	[Sachsen](https://www.umwelt.sachsen.de/umwelt/infosysteme/ida/index.xhtml) 
 *	Sachsen-Anhalt:   
