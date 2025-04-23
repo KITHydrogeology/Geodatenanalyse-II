@@ -10,7 +10,7 @@
 
 **Achtung**: Voraussetzung für die Belegung ist das Modul *Programmierung und Geostatistik für Hydro- und Ingenieurgeologen* (Geodatenanalyse I)
 
-Für allgemeine Kursinformationen siehe [KIT Campus Management für Studierende](https://campus.kit.edu/sp/campus/all/event.asp?gguid=0x8D93A6C0167743FFBE5767672D4913E4&rwfiguid=0x77DD55660A4543A2857E50B3B14DBADD&tguid=0x40B784B43AED4CC9857335104533EDFB)
+Für allgemeine Kursinformationen siehe [KIT Campus Management für Studierende](https://campus.kit.edu/campus/all/event.asp?objgguid=0x9E0ED35209524E4B8EFD41905620A461&from=vvz&gguid=0xD6CFF3C1DC494F37BA74C1FF29E6D7DC&mode=own&tguid=0x36588A116C38417CAA9C1861FE6D8370)
 
 Für detaillierte Kursinformationen siehe [KIT ILIAS](https://ilias.studium.kit.edu/ilias.php?baseClass=ilrepositorygui&ref_id=2639928)
 
