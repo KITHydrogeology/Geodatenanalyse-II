@@ -43,7 +43,7 @@ https://geoportal.bafg.de/ggina-portal/
 #### Geodatenportale der Bundesländer:
 *	Baden-Württemberg:  
     *	[Udo](https://udo.lubw.baden-wuerttemberg.de/public/)     
-    *	[Jahresdatenkatalog GW](http://jdkgw.lubw.baden-wuerttemberg.de/servlet/is/200/)     
+    *	[Jahresdatenkatalog GW](https://umweltdaten.lubw.baden-wuerttemberg.de/repositories/wasser_grundwasser,uXwTw947n7bRQG4iOuXI/workbooks/Grundwasserguete,ElW90OFKM4Yp6SuaXMUC/worksheets/Uebersicht,EcsMAJuFpqt01exTJsUl?workbookHash=ZGQrsjiAFdCUY76DYg7ENZojbB99KEm21RiUYEJnPAosYi-J&embeddingTargetId=grundwasser)     
     *	[GUQ](https://guq.lubw.baden-wuerttemberg.de/GuQWeb.dll/p79198.html?BerichtsMonat=201708)      
 *	[Bayern](https://www.gkd.bayern.de/de/grundwasser/oberesstockwerk) 
 *	[Berlin](https://wasserportal.berlin.de/start.php) 
